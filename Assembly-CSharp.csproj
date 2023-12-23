@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\CarMove.cs" />
     <Compile Include="Assets\Scripts\ItemSpawner.cs" />
     <Compile Include="Assets\Scripts\RoadMove.cs" />
+    <Compile Include="Assets\Scripts\CollisionHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
