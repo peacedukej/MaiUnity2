@@ -59,10 +59,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\TreesGeneration.cs" />
+    <Compile Include="Assets\Scripts\Trees.cs" />
     <Compile Include="Assets\Scripts\LaneMove.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\Barrier.cs" />
     <Compile Include="Assets\Scripts\CarMove.cs" />
     <Compile Include="Assets\Scripts\ItemSpawner.cs" />
+    <Compile Include="Assets\Scripts\DefaultTreesGeneration.cs" />
     <Compile Include="Assets\Scripts\RoadMove.cs" />
     <Compile Include="Assets\Scripts\CollisionHandler.cs" />
   </ItemGroup>
