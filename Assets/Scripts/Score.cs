@@ -1,27 +1,36 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Scoring : MonoBehaviour
+public class Score : MonoBehaviour
 {
     public Text ScoreText;
-    public int score;
+    private int scoreCount;
 
     void Start()
     {
-        score = 0;
+        scoreCount = 0;
+        ScoreText.text = "Score: " + scoreCount;
     }
-
-
-    void UpdateScore()
-    {
-        score = Mathf.FloorToInt(Time.time * 10);
-        ScoreText.text = "Score: " + score;
-    }
-
-
 
     void Update()
     {
         UpdateScore();
+    }
+
+    void UpdateScore()
+    {
+        scoreCount = Mathf.FloorToInt(Time.time * 10);
+        ScoreText.text = "Score: " + scoreCount;
+    }
+
+    public void ResetScore()
+    {
+        scoreCount = 0;
+        ScoreText.text = "Score: " + scoreCount;
+    }
+
+    public int GetScore()
+    {
+        return scoreCount;
     }
 }

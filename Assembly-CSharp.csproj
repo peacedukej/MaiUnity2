@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\TreesGeneration.cs" />
+    <Compile Include="Assets\Scripts\ExitButton.cs" />
     <Compile Include="Assets\Scripts\Trees.cs" />
     <Compile Include="Assets\Scripts\LaneMove.cs" />
     <Compile Include="Assets\StartGame.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Assets\Scripts\ItemSpawner.cs" />
     <Compile Include="Assets\Scripts\DefaultTreesGeneration.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\Scripts\RoadMove.cs" />
     <Compile Include="Assets\Scripts\CollisionHandler.cs" />
   </ItemGroup>
