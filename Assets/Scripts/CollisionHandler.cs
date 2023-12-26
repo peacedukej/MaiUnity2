@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
@@ -7,8 +8,7 @@ public class CollisionHandler : MonoBehaviour
         // Проверяем столкновение с барьером
         if (other.gameObject.tag == "Barrier")
         {
-            // Вызываем метод завершения игры
-            print("Enter");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }

@@ -7,7 +7,7 @@ public class TreesGeneration : MonoBehaviour
     [SerializeField] private GameObject treesRight;
     private void Start()
     {
-        InvokeRepeating("SpawnItem", 0, 0.1f);
+        InvokeRepeating("SpawnItem", 0, 0.2f);
     }
 
     private void SpawnItem()

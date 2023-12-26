@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\CarMove.cs" />
     <Compile Include="Assets\Scripts\ItemSpawner.cs" />
     <Compile Include="Assets\Scripts\DefaultTreesGeneration.cs" />
+    <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\RoadMove.cs" />
     <Compile Include="Assets\Scripts\CollisionHandler.cs" />
   </ItemGroup>

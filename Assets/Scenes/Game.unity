@@ -396,7 +396,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 6.84, y: 1.84}
+  m_AnchoredPosition: {x: 6.97, y: 0.53}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &445472998
@@ -1077,7 +1077,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1453628178}
   - component: {fileID: 1453628177}
-  - component: {fileID: 1453628179}
   m_Layer: 0
   m_Name: ItemSpawner
   m_TagString: Untagged
@@ -1098,6 +1097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Barrier1: {fileID: 1455041787}
+  Barrier2: {fileID: 850121141}
 --- !u!4 &1453628178
 Transform:
   m_ObjectHideFlags: 0
@@ -1113,19 +1113,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1453628179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453628176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95c82ee3cd40c2b43bbe49a9b0754a31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Barrier1: {fileID: 850121141}
 --- !u!1 &1455041787 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1179306854061334, guid: fcac0b43c6d59ba49afa844ab64f36b9, type: 3}
