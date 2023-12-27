@@ -39,4 +39,4 @@
 ## Билд
 *Ссылка на архив с рабочим билдом под целевую платформу*
 
-[Билд под Win](https://disk.yandex.ru/d/0I4siiqQOVv1FA)
+[Билд под Win](https://disk.yandex.ru/d/6b8OTmxRW6hW5A)
